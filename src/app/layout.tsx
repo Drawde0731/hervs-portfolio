@@ -50,6 +50,12 @@ export const metadata: Metadata = {
     title: `${DATA.nickname}`,
     card: "summary_large_image",
   },
+  icons: {
+    icon: [
+      { url: "/icon-light.png", media: "(prefers-color-scheme: light)" },
+      { url: "/icon-dark.png", media: "(prefers-color-scheme: dark)" },
+    ],
+  },
   verification: {
     google: "",
     yandex: "",
